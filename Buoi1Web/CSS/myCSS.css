@@ -1,0 +1,94 @@
+﻿
+
+body {
+}
+
+    body .section-1 {
+        width: 80%;
+        margin: auto;
+    }
+
+    body .top-bar {
+        border: 1px solid black;
+    }
+
+        body .top-bar .main-bar {
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+            body .top-bar .main-bar .contact-left {
+                flex-grow: 4;
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+            }
+
+            body .top-bar .main-bar .login-right {
+                flex-grow: 2;
+            }
+
+    body .main-container .banner-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 0;
+    }
+
+        body .main-container .banner-container img {
+            width: 37%;
+            height: auto;
+            border: 1px solid black;
+        }
+
+            body .main-container .banner-container img:nth-child(1) {
+                width: 25%;
+            }
+
+    body .menu-bar {
+        border: 1px solid black;
+    }
+
+        body .menu-bar ul {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        body .menu-bar li {
+            list-style-type: none;
+            display: inline-block;
+        }
+
+    body .container {
+        display: flex;
+        margin-top: 10px;
+        flex-wrap: nowrap;
+    }
+
+        body .container .hot-new {
+            width:45%
+            
+        }
+            body .container .hot-new button {
+                position: relative;
+                border: 2px solid grey;
+                border-right-color: #000; 
+                padding: 10px 20px;
+                background-color: #fff;
+                color: #000;
+
+                body .container .hot-new img {
+                    width: 100%;
+                }
+        body .container .the-new {
+            width: 20%;
+        }
+
+        body .container .ads {
+            width: 35%;
+        }
+            body .container .ads img {
+                padding:2px;
+                width: 100%;
+                border:1px solid black;
+            }
